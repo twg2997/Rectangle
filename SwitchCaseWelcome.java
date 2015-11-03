@@ -26,6 +26,9 @@ public class SwitchCaseWelcome {
 					JOptionPane.showMessageDialog(null, "Welcome " + userRole + ".");
 					break;
 					
+				default:
+					JOptionPane.showMessageDialog(null, "Invalid selection.");
+					
 			
 		}
 		
